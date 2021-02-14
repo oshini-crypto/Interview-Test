@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Annie's Fashion </title>
+<link href="styles/css3.css" type="text/css" rel="stylesheet"/>
+<link rel="logo icon" href="images/logo.jpg">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{
+margin: 0;
+}
+
+.about{
+padding: 50px;
+text-align: center;
+background-color: red;
+font-size:50px
+color:black;
+}
+ </style>
+ </head>
+ 
+ <body>
+ 
+ <div class="about">
+ <h1>About Us</h1>
+ </div>
+ 
+ <div class="topnavigation2" id="TopNavigation">
+<a href="home.html">Home</a>
+<a href="products.html">Products</a>
+<a href="abooutus.html" class="current">About Us</a>
+</div>
+
+<div class="todayDate">
+<p id="date"></p>
+<script>
+var d = new Date();
+document.getElementById("date").innerHTML = d;
+</script>
+</div>
+
+<div class="aboutVideo">
+<video width="1520" height="440" controls>
+<source src="aboutus.mp4"  type="video/mp4">
+</video>
+
+<div class="footer">
+<h2><i><b>Thank you for visiting our store....!!<b></i></h2>
+</div>
+
+ 
+ </body>
+ </html>
